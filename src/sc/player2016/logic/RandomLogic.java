@@ -55,8 +55,8 @@ public class RandomLogic implements IGameHandler {
 	 */
 	@Override
 	public void onRequestAction() {
-			System.out.println("*** Es wurde ein Zug angefordert"); 
-		
+			System.out.println("*** Es wurde ein Zug aengefordert"); 
+		//testcommenenenenennent
 			List<Move> possibleMoves = gameState.getPossibleMoves();
 			System.out.println("*** sende zug: ");
 			
